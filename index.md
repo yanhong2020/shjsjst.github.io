@@ -1,123 +1,63 @@
----
-layout: default
----
+# 欢迎加入计算机社团
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+    ![](微信截图_20211001151314.png)</a>
 
-[Link to another page](./another-page.html).
+## 学校内网相关功能快捷跳转
 
-There should be whitespace between paragraphs.
+    <!-- 实时时间显示 -->
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+    当前时间：
+    <div id="times">
+        </div>
+       <script type="text/javascript">
+         function  getD1(){
+             var date=new Date();
+             var d1=date.toLocaleString();
+             var div1=document.getElementById("times");
+             div1.innerHTML =d1;
 
-# Header 1
+         }
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+         setInterval("getD1();",1000);
 
-## Header 2
+        </script>
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+* * *
+ ** 校园网账号登陆**（上网认证）**：**
+    [点击我](http://10.254.2.252/)
 
 * * *
 
-### Here is an unordered list:
+    **校园网账号管理**（个人账号管理）**：**
+    [点击我](http://10.254.2.251:8080/selfservice/)
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+* * *
 
-### And an ordered list:
+    **图书馆图书检索系统** (请使用校园内网访问) ** ：**
+    [点击我](http://10.254.2.50/)
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+* * *
 
-### And a nested list:
+    <font size="4">**图书检索系统使用方法：**</font> 
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+1.  在“搜索框”输入想要查找的内容，点击“搜索”，可使用左侧下拉菜单选项实现精准查找；
+2.  在检索结果页面选择点击想要查找的书目；
+3.  在图书详情页根据“所属图书馆”、“索书号”去对应阅览室根据书架侧面架标找到图书。
+    <font size="4">**读者信息查询方法：**</font> 
 
-### Small image
+1.  点击屏幕右上角“以您的账号登陆”；
+2.  登陆账号为一卡通编号的数字，初始密码为<font size="5" color="black">Lhlib123456</font>（点击Caps切换大写）（初次登陆后建议修改密码）
+3.  查询完毕点击右上角“注销”退出。
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+* * *
 
-### Large image
+    <font size="4" color="#66ccff">
+        by:计算机社团的一个笨比
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+联系方式：hyh9326@gmail.com
+    </font>
 
+* * *
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+</body>
+</html>
