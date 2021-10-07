@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎加入山航计算机社团！！！</title>
+    <style>
+        
+        body {
+            background-repeat: no-repeat;
+            background-color:rgba(255,255,255,0.5);
+            background-position: center;
+            margin: 0 auto;
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body >
+    <h1>欢迎加入计算机社团</h1>
+    <img src="jisuanjishetuannaxin.jpg" alt="" width="500px"></a>
+    <h2>学校内网相关功能快捷跳转</h2>
+    <!-- 实时时间显示 -->
+    
+    当前时间：
+    <div id="times">
+        </div>
+       <script type="text/javascript">
+         function  getD1(){
+             var date=new Date();
+             var d1=date.toLocaleString();
+             var div1=document.getElementById("times");
+             div1.innerHTML =d1;
+     
+         }
+     
+         setInterval("getD1();",1000);
+     
+        </script>
+
+    <hr /> <b> 校园网账号登陆</b>（上网认证）<b>：</b>
+    <a href="http://10.254.2.252/">点击我</a>
+    <hr />
+    <b>校园网账号管理</b>（个人账号管理）<b>：</b>
+    <a href="http://10.254.2.251:8080/selfservice/">点击我</a>
+    <hr />
+    <b>图书馆图书检索系统</b> (请使用校园内网访问) <b> ：</b>
+    <a href="http://10.254.2.50/">点击我</a>
+    <hr />
+    <font size="4"><b>图书检索系统使用方法：</b></font> 
+    
+    <ol type="1">
+        <li>在“搜索框”输入想要查找的内容，点击“搜索”，可使用左侧下拉菜单选项实现精准查找；</li>
+        <li>在检索结果页面选择点击想要查找的书目；</li>
+        <li>在图书详情页根据“所属图书馆”、“索书号”去对应阅览室根据书架侧面架标找到图书。</li>
+    </ol>
+    <font size="4"><b>读者信息查询方法：</b></font> 
+    <ol type="1">
+        <li>点击屏幕右上角“以您的账号登陆”；</li>
+        <li>登陆账号为一卡通编号的数字，初始密码为<font size="5" color="black">Lhlib123456</font>（点击Caps切换大写）（初次登陆后建议修改密码）</li>
+        <li>查询完毕点击右上角“注销”退出。</li>
+    </ol>
+    <hr size="3" color="#66ccff" />
+    <font size="4" color="#66ccff">
+        by:计算机社团的一个笨比
+        <br />联系方式：hyh9326@gmail.com
+    </font>
+    <hr size="3" color="#66ccff" />
+    
+   
+</body>
+</html>
